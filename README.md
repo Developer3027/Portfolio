@@ -14,6 +14,54 @@ Click Up has been integrated in this repo. Click Up is being used for project ma
 
 To change the status of a task on Click Up, include the task id when you commit your change. You can get the id from the card. Hover over the card, click the three dots in the lower right to bring up the menu. Click the hash tag icon in the header to copy the card id. Format like: cu-1234[status].
 
+# Project Tree Layout
+This is a general idea, but the tree structure for this project is as follows. There may be some issues with the word module in this structure. I may change these names moving forward but the general concept will be held to.
+
+src - the source folder created by npx create app<br>
+actions - folder for redux actions<br>
+auth - folder dealing with auth<br>
+data - folder for data such as database<br>
+hooks - folder for custom hooks<br>
+reducers - reducers for redux<br>
+routing - any hook or utility built for routing<br>
+utilis - utility or helper built<br>
+components - folder holds pages and parts of pages<br>
+elements - for individual pieces parts<br>
+modules - base component assembled in part from elements<br>
+constants - parts of the page shown on all pages<br>
+layouts - can be considered a page layout<br>
+forms - folder for any forms built
+
+
+* src
+  * actions
+  * auth
+  * data
+  * hooks
+  * reducers
+  * routing
+  * utilis
+  * components
+    * elements
+      * alert
+      * spinner
+      * button
+    * modules
+      * info_card
+      * show_card
+      * header (hero)
+    * constants
+      * navbar
+      * footer
+    * layouts
+      * main_page
+      * about_page
+      * projects_page
+    * forms
+      * contact
+      * login
+      * register
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
