@@ -1,3 +1,8 @@
+# Click Up
+Click Up has been integrated in this repo. Click Up is being used for project management. I am using a standard Agile, scrum work flow. This is worked in standard sprints of 2 weeks.
+
+To change the status of a task on Click Up, include the task id when you commit your change.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
