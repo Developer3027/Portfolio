@@ -1,7 +1,18 @@
+# Developer 3027 Portfolio
+This is the repo for my portfolio. The initial project is on the repo called A. Once that project was built I decided to work features and bug fixes in more of a agile ecosystem. This is to learn and show my knowledge about working in a team environment. My knowledge of SCRUM development and sprint cycles.
+
+For project management I am using Click Up which is an all in one platform. I can create docs or link to resources. I have it set to work in a agile work flow with scrum. To review this please ask to be added at dev3027@mason-roberts.com.
+
+For communication I am using Slack which includes a slack channel dedicated to this build. As cards are moved or commented on in Click Up, the Slack channel is updated.
+
+For code I am using Github. This allows me to have feature branches and a production branch. My production branch for this project is the main branch.
+
+For CI / CD I am using the above and Netlify. Netlify is using this repo and builds the main branch when a change is made. So as changes are merged of pushed to the main branch, Netlify will perform a build and present it.
+
 # Click Up
 Click Up has been integrated in this repo. Click Up is being used for project management. I am using a standard Agile, scrum work flow. This is worked in standard sprints of 2 weeks.
 
-To change the status of a task on Click Up, include the task id when you commit your change.
+To change the status of a task on Click Up, include the task id when you commit your change. You can get the id from the card. Hover over the card, click the three dots in the lower right to bring up the menu. Click the hash tag icon in the header to copy the card id. Format like: cu-1234[status].
 
 # Getting Started with Create React App
 
