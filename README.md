@@ -62,6 +62,9 @@ forms - folder for any forms built
       * login
       * register
 
+## extension used
+I use a extension called better comments so you may see a funny syntax in the comments. With the extension these comments are highlighted in different ways.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
