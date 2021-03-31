@@ -14,17 +14,17 @@ import './style.css';
 
 const Navbar = () => {
   const [shownav, setShowNav] = useState(false);
-  const [rotated, setRotated] = useState(true);
+  const [rotated, setRotated] = useState(false);
   return(
     <>
-      <nav className='navbar'>
-        <div className="nav-logo">
-          <img className="logo-img" src="/images/logo.png" alt="logo for dev 30 27" />
+      <nav className='nav'>
+        <div className="nav__logo">
+          <img className="nav__logo__img" src="/images/logo.png" alt="logo for dev 30 27" />
         </div>
 
-        <div className="nav-menu">
-          <div><FaAngleDown className="menu-btn" id={rotated ? "up" : "down"} onClick={() => {setShowNav(!shownav); setRotated(!rotated)}} /></div>
-          <ul className='nav-ul-menu' id={shownav ? "hidden" : ""}>
+        <div className="nav__menu">
+          <div><FaAngleDown className="nav__menu__btn" id={rotated ? "up" : "down"} onClick={() => {setShowNav(!shownav); setRotated(!rotated)}} /></div>
+          <ul className='nav__menu__list' id={shownav ? "show" : "hidden"}>
             <li><FaMugHot/>&nbsp;Projects</li>
             <li><FaBoxOpen/>&nbsp;Packages</li>
             <li><FaRobot/>&nbsp;Rive Bot</li>
