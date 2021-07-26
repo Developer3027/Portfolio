@@ -1,0 +1,92 @@
+#hide {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 250ms linear, max-height 250ms linear;
+  will-change: opacity, max-height;
+}
+
+#view {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 250ms linear;
+  will-change: opacity, max-height;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.projectCard {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 500px;
+  border-bottom: 2px solid lavender;
+}
+
+/* .projectCard :nth-last-child() {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+} */
+
+.folderWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+  min-height: 100px;
+  background-color: lightgreen;
+  border-radius: 5px 5px 0 0;
+  margin-right: 10px;
+}
+
+.icon {
+  font-size: 28px;
+  margin-right: 10px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 250ms linear
+}
+
+.icon:hover {
+  opacity: 1;
+}
+
+.projectInfo p {
+  padding-right: 40px;
+}
+
+.title {
+  margin-right: 10px;
+}
+
+.plusIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+  width: 40px;
+  font-size: 30px;
+  background-color:lavender;
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+}
+
+.projectDetails {
+  width: 496px;
+  border: 2px solid lavender;
+  margin-bottom: 1rem;
+}
+
+.projectDetails p {
+  padding: 5px;
+}
