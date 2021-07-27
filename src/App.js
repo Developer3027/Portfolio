@@ -1,13 +1,26 @@
+import { Switch, Route } from 'react-router-dom';
+
 import Navbar from './components/constants/Navbar';
+import Hermit from './components/pages/hermit';
+import Nutrasite from './components/pages/nutrasite';
+import Hero from './components/pages/hero';
+import Footer from './components/constants/Footer';
+
 import Projects from './components/pages/projects';
-import AddDivConcept from './components/test/addDivConcept';
+
 import './App.css';
 
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
-      <Projects />
+      <Navbar />
+      <section className='section'>
+        <Route exact path='/' component={Hero} />
+        <Route path='/hermit-plus' component={Hermit} />
+        <Route path='/nutrasite' component={Nutrasite} />
+        <Route path='/projects' component={Projects} />
+      </section>
+      <Footer />
     </>
   );
 }
