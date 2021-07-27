@@ -6,16 +6,33 @@
 :root {
   --drk-font-color: #fff;
   --drk-bg-color: #333;
+  --blk-bg-color: #000000;
+  --light-bg-color: #ddf4be;
+  --highlight-font-color: #faff00;
+  --base-green-color: #10c500;
+  --highlight-green-color: #15ff00;
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: black;
+}
+
+a {
+  color: var(--highlight-green-color);
+  text-decoration: none;
 }
 
 ul,
 ol,
 li {
   list-style: none;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  padding: 2em 0;
+  overflow-x: hidden;
 }

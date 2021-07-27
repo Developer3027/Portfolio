@@ -1,0 +1,57 @@
+/* css for Nutrasite page */
+
+.nutra__container {
+  margin-top: 5em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nutra__wrapper {
+  width: 100%;
+  max-width: 900px;
+}
+
+.nutra__wrapper p {
+  margin: 0.3em 0;
+  line-height: 20px;
+}
+
+.nutra__wrapper h3 {
+  background-color: var(--highlight-font-color);
+  color: var(--blk-bg-color);
+  border-radius: 5px;
+  border: 2px dashed var(--drk-bg-color);
+  padding: 0.5em;
+  margin: 1em 0;
+  text-align: center;
+}
+
+.nutra__screenshot {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.nutra__screenshot img {
+  width: 90%;
+}
+
+.nutra__highlight {
+  text-decoration: none;
+  color: var(--highlight-green-color);
+}
+
+.nutra__highlight:hover {
+  color: var(--highlight-font-color);
+}
+
+@media (max-width: 425px) {
+  .nutra__wrapper {
+    margin: 1rem;
+  }
+}

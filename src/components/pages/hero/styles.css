@@ -1,0 +1,189 @@
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 375px) {
+}
+
+@media (max-width: 320px) {
+}
+
+/* audio {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #faff00;
+  border-radius: 50%;
+} */
+
+.hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__wrapper {
+  width: 100%;
+  max-width: 900px;
+  padding-top: 70px;
+  display: flex;
+}
+
+.hero__outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero__inner {
+}
+
+.hero__leftEdge {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  color: #fff;
+  margin-bottom: 0.5em;
+}
+
+.hero__top {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  padding: 0.5em;
+  margin: 0 10%;
+  margin-top: 6em;
+}
+
+/* todo review this naming convention */
+.hero__hl {
+  font-weight: bold;
+  color: #ebcb34;
+}
+/* todo review this naming convention
+todo this had a media query out of range */
+.hero__mid {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  padding-top: 0.5em;
+  padding: 0.5em;
+  padding-bottom: 1em;
+  margin: 0 10%;
+}
+/* todo review this naming convention
+todo this had a media query out of range */
+.hero__btns {
+  display: flex;
+  z-index: 1;
+  justify-content: space-evenly;
+  margin: 1em 0;
+}
+/* todo review this naming convention
+todo this had a media query out of range */
+.hero__btnsTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 50px;
+  background-color: #777;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 3px;
+  transition: ease 0.5s;
+}
+
+.hero__btnsTwo:hover {
+  background-color: slateblue;
+  outline: 1px solid #fff;
+  outline-offset: -7px;
+  cursor: pointer;
+}
+
+.hero__link {
+  text-decoration: none;
+}
+
+.hero__title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.hero__text {
+  font-family: 'Playfair Display', serif;
+  font-size: 4em;
+  font-weight: bold;
+  margin: 0;
+  background: -webkit-linear-gradient(right, #faff00, #ad00ff, #10c500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  @supports (-webkit-overflow-scrolling: touch) {
+    -webkit-text-fill-color: unset;
+  }
+}
+
+.hero__text__mobile {
+  display: none;
+}
+
+.hero__pic {
+  margin-left: -3rem;
+}
+
+.hero__img {
+  width: 400px;
+}
+
+@media (max-width: 425px) {
+  .hero__leftEdge {
+    display: none;
+  }
+
+  /* .hero__outer {
+    width: 100%;
+  } */
+
+  .hero__pic {
+    display: none;
+  }
+
+  .hero__top,
+  .hero__mid,
+  .hero__hl {
+    font-size: 16px;
+  }
+
+  .hero__top {
+    margin-top: 0.5em;
+  }
+
+  .hero__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .hero__name__mobile {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--base-green-color);
+    text-align: center;
+  }
+
+  .hero__text {
+    display: none;
+  }
+
+  .hero__text {
+    display: none;
+  }
+}
