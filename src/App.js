@@ -7,6 +7,7 @@ import Hero from './components/pages/hero';
 import Footer from './components/constants/Footer';
 
 import Projects from './components/pages/projects';
+
 import './App.css';
 
 function App() {

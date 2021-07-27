@@ -1,0 +1,21 @@
+span {
+    display: inline-block;
+  }
+
+.default div {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.default .hide {
+    opacity: 0;
+}
+
+.default .bot {
+    opacity: 1;
+    text-align: left;
+    margin-right: auto;
+    color: lightgreen;
+    background: #343434;
+}

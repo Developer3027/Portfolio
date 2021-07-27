@@ -1,4 +1,7 @@
 # Developer 3027 Portfolio
+
+I am once again making a change to a file while trying to push to github
+
 This is the repo for my portfolio. The initial project is on the repo called A. Once that project was built I decided to work features and bug fixes in more of a agile ecosystem. This is to learn and show my knowledge about working in a team environment. My knowledge of SCRUM development and sprint cycles.
 
 For project management I am using Click Up which is an all in one platform. I can create docs or link to resources. I have it set to work in a agile work flow with scrum. To review this please ask to be added at dev3027@mason-roberts.com.
