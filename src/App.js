@@ -1,4 +1,5 @@
-import { Switch, Route } from 'react-router-dom';
+import React from 'react';
+import { Route } from 'react-router-dom';
 
 import Navbar from './components/constants/Navbar';
 import Hermit from './components/pages/hermit';
