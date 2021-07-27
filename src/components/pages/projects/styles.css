@@ -71,6 +71,16 @@
   cursor: pointer;
   opacity: 0.7;
   transition: opacity 250ms linear;
+  animation: 1.5s linear 3s 6 alternate fade-icon;
+}
+
+@keyframes fade-icon {
+  from {
+    color: black;
+  }
+  to {
+    color: var(--highlight-font-color);
+  }
 }
 
 .icon:hover {
