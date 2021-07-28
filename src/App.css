@@ -13,6 +13,11 @@
   --highlight-green-color: #15ff00;
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   width: 100%;
   height: 100%;

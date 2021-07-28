@@ -7,7 +7,6 @@ import {
   FaRobot,
   FaPaperclip,
   FaHandshake,
-  FaBook,
   FaUserAlt,
   FaAngleDown
 } from 'react-icons/fa';
@@ -69,10 +68,10 @@ const Navbar = () => {
               <FaHandshake />
               &nbsp;Social
             </li>
-            <li>
+            {/* <li>
               <FaBook />
               &nbsp;Blog
-            </li>
+            </li> */}
             <li>
               <FaPaperclip />
               &nbsp;Resume
