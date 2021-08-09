@@ -1,7 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import { FaMugHot, FaPaperclip, FaUserAlt, FaAngleDown } from 'react-icons/fa';
+import {
+  FaMugHot,
+  FaPaperclip,
+  FaUserAlt,
+  FaAngleDown,
+  FaRobot
+} from 'react-icons/fa';
 
 const Navbar = () => {
   const [shownav, setShowNav] = useState(false);
@@ -53,13 +59,16 @@ const Navbar = () => {
               &nbsp;<Link to='/projects'>Projects</Link>
             </li>
 
+            <li>
+              <FaRobot />
+              &nbsp;
+              <a href='chatbot/index.html' target='_blank' rel='noopener'>
+                Rive Bot
+              </a>
+            </li>
             {/*<li>
               <FaBoxOpen />
               &nbsp;Packages
-            </li>
-            <li>
-              <FaRobot />
-              &nbsp;Rive Bot
             </li>
             <li>
               <FaHandshake />
