@@ -28,7 +28,7 @@ function Footer() {
             <Link to='/contact'>
               <li>Contact</li>
             </Link>
-            <a href='/Mason+Roberts+Resume.pdf' target='_blank' rel='noopener'>
+            <a href='Mason+Roberts+Resume.pdf' target='_blank' rel='noopener'>
               <li>Resume</li>
             </a>
           </ul>

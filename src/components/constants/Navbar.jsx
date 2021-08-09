@@ -71,11 +71,14 @@ const Navbar = () => {
             </li> */}
             <li>
               <FaPaperclip />
-              &nbsp;Resume
+              &nbsp;
+              <a href='Mason+Roberts+Resume.pdf' target='_blank' rel='noopener'>
+                Resume
+              </a>
             </li>
             <li>
               <FaUserAlt />
-              &nbsp;Contact
+              &nbsp;<Link to='/contact'>Contact</Link>
             </li>
           </ul>
         </div>
