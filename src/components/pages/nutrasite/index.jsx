@@ -28,7 +28,7 @@ const Nutrasite = () => {
           &nbsp;
           <h4>
             <a
-              href='https://github.com/Developer3027/NutraSite'
+              href='https://github.com/Developer3027/ecom_mern'
               target='_blank'
               rel='noreferrer'
               className='nutra__highlight'>

@@ -1,0 +1,80 @@
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 1em;
+}
+
+.contactTopDiv {
+  width: 500px;
+  height: 3em;
+  background: -webkit-linear-gradient(180deg, #faff00, #ad00ff, #10c500);
+  border-radius: 5px 5px 0 0;
+}
+
+.contactWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #333;
+  width: 800px;
+  padding-bottom: 2em;
+  margin-top: 10em;
+  height: 100%;
+  border-radius: 0 0 5px 5px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 498px;
+}
+
+.contactText {
+  color: #fff;
+  line-height: 1.3em;
+  letter-spacing: 0.08em;
+  width: 500px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.contactInput {
+  color: #333;
+  padding: 0.5em;
+  width: 97%;
+}
+
+.contactInputButton {
+  margin-top: 1em;
+  padding: 1em 4em;
+  width: 100%;
+  color: #333;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  margin-top: 2em;
+  transition: ease 0.5s;
+}
+
+.contactInputButton:hover {
+  background-color: slateblue;
+  outline: 1px solid #fff;
+  outline-offset: -7px;
+  cursor: pointer;
+  color: #fff;
+}
+.contactLabel {
+  align-self: flex-start;
+  color: #fff;
+  margin: 0.5em 0;
+}
+
+.contactTextArea {
+  width: 100%;
+  padding: 0.5em 0;
+}

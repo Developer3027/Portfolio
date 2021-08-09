@@ -7,7 +7,7 @@ function Footer() {
       <div className='footer__wrapper'>
         <div className='footer__main'>
           <h1 className='footer__h1'>Developer3027</h1>
-          <div className='footer__p'>dev3027@mason-roberts.com</div>
+          <p className='footer__p'>dev3027@mason-roberts.com</p>
         </div>
         <div className='footer__mid'>
           <img

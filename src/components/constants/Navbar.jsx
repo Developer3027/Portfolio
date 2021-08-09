@@ -1,16 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import {
-  FaMugHot,
-  FaBoxOpen,
-  FaRobot,
-  FaPaperclip,
-  FaHandshake,
-  FaUserAlt,
-  FaAngleDown
-} from 'react-icons/fa';
-import './style.css';
+import { FaMugHot, FaPaperclip, FaUserAlt, FaAngleDown } from 'react-icons/fa';
 
 const Navbar = () => {
   const [shownav, setShowNav] = useState(false);
@@ -50,13 +41,19 @@ const Navbar = () => {
               }}
             />
           </div>
-          <ul className='nav__menu__list' id={shownav ? 'show' : 'hidden'}>
+          <ul
+            className='nav__menu__list'
+            id={shownav ? 'show' : 'hidden'}
+            onClick={() => {
+              setShowNav(!shownav);
+              setRotated(!rotated);
+            }}>
             <li>
               <FaMugHot />
               &nbsp;<Link to='/projects'>Projects</Link>
             </li>
 
-            <li>
+            {/*<li>
               <FaBoxOpen />
               &nbsp;Packages
             </li>
@@ -68,7 +65,7 @@ const Navbar = () => {
               <FaHandshake />
               &nbsp;Social
             </li>
-            {/* <li>
+             <li>
               <FaBook />
               &nbsp;Blog
             </li> */}

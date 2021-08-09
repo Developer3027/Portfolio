@@ -7,7 +7,7 @@ function Hero() {
     <div className='hero__container'>
       <div className='hero__wrapper'>
         <div className='hero__leftEdge'>
-          <span>Mason Roberts</span>
+          <p>Mason Roberts</p>
         </div>
         <div className='hero__outer'>
           <div className='hero__inner'>

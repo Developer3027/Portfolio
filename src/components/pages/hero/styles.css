@@ -10,17 +10,12 @@
 @media (max-width: 320px) {
 }
 
-/* audio {
-  width: 20px;
-  height: 20px;
-  border: 1px solid #faff00;
-  border-radius: 50%;
-} */
-
 .hero__container {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 1em;
+  height: calc(100vh - 120px);
 }
 
 .hero__wrapper {
@@ -40,7 +35,6 @@
 }
 
 .hero__leftEdge {
-  font-family: 'Maven Pro', sans-serif;
   font-size: 48px;
   writing-mode: vertical-rl;
   text-orientation: mixed;
@@ -50,7 +44,6 @@
 }
 
 .hero__top {
-  font-family: 'Maven Pro', sans-serif;
   font-size: 18px;
   color: #fff;
   padding: 0.5em;
@@ -66,7 +59,6 @@
 /* todo review this naming convention
 todo this had a media query out of range */
 .hero__mid {
-  font-family: 'Maven Pro', sans-serif;
   font-size: 18px;
   text-align: left;
   color: #fff;
@@ -117,7 +109,6 @@ todo this had a media query out of range */
 }
 
 .hero__text {
-  font-family: 'Maven Pro', sans-serif;
   font-size: 4em;
   font-weight: bold;
   margin: 0;
@@ -147,10 +138,6 @@ todo this had a media query out of range */
     display: none;
   }
 
-  /* .hero__outer {
-    width: 100%;
-  } */
-
   .hero__pic {
     display: none;
   }
@@ -173,7 +160,6 @@ todo this had a media query out of range */
   }
 
   .hero__name__mobile {
-    font-family: 'Playfair Display', serif;
     font-size: 32px;
     font-weight: bold;
     color: var(--base-green-color);

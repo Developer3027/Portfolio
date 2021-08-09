@@ -64,6 +64,21 @@
 .hermit {
   background: url('../../../images/hermit-thumb.png');
 }
+.copy {
+  background: url('../../../images/copywriter-thumb.png');
+}
+.music {
+  background: url('../../../images/music-thumb.png');
+}
+.landing {
+  background: url('../../../images/landing-thumb.png');
+}
+.recipe {
+  background: url('../../../images/recipe-thumb.png');
+}
+.barber {
+  background: url('../../../images/barber-thumb.png');
+}
 
 .icon {
   font-size: 28px;

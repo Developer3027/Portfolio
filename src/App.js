@@ -5,6 +5,7 @@ import Navbar from './components/constants/Navbar';
 import Hermit from './components/pages/hermit';
 import Nutrasite from './components/pages/nutrasite';
 import Hero from './components/pages/hero';
+import ContactUs from './components/forms/contact';
 import Footer from './components/constants/Footer';
 
 import Projects from './components/pages/projects';
@@ -17,6 +18,7 @@ function App() {
       <Navbar />
       <section className='section'>
         <Route exact path='/' component={Hero} />
+        <Route path='/contact' component={ContactUs} />
         <Route path='/hermit-plus' component={Hermit} />
         <Route path='/nutrasite' component={Nutrasite} />
         <Route path='/projects' component={Projects} />
