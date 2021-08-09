@@ -5,6 +5,9 @@ import './styles.css';
 const Nutrasite = () => {
   return (
     <>
+      <section className='nutra__small'>
+        <h1>Please view on a larger screen</h1>
+      </section>
       <section className='nutra__container'>
         <div className='nutra__wrapper'>
           <h2>NutraSite</h2>&nbsp;

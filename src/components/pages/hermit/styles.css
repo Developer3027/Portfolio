@@ -45,3 +45,18 @@
 .hermit__highlight:hover {
   color: var(--highlight-font-color);
 }
+
+@media (max-width: 425px) {
+  .hermit__small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 120px);
+  }
+  .hermit__small h1 {
+    color: #fff;
+  }
+  .hermit__container {
+    display: none;
+  }
+}

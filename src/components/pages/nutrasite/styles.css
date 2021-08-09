@@ -51,7 +51,16 @@
 }
 
 @media (max-width: 425px) {
-  .nutra__wrapper {
-    margin: 1rem;
+  .nutra__small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 120px);
+  }
+  .nutra__small h1 {
+    color: #fff;
+  }
+  .nutra__container {
+    display: none;
   }
 }

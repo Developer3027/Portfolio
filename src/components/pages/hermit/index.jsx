@@ -5,6 +5,9 @@ import './styles.css';
 const Hermit = () => {
   return (
     <>
+      <section className='hermit__small'>
+        <h1>Please view on a larger screen</h1>
+      </section>
       <section className='hermit__container'>
         <div className='hermit__wrapper'>
           <h2>Hermit Plus</h2>&nbsp;
