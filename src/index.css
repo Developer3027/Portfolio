@@ -274,6 +274,7 @@
 
   .footer__div {
     width: 100%;
-    margin: auto 0.5em;
+    margin: 0.5em;
+    padding-bottom: 0.5em;
   }
 }
