@@ -1,4 +1,7 @@
 /* css for Hermit page */
+.hermit__small {
+  display: none;
+}
 
 .hermit__container {
   margin-top: 5em;
@@ -11,6 +14,7 @@
 .hermit__wrapper {
   width: 100%;
   max-width: 900px;
+  padding: 0 1em;
 }
 
 .hermit__wrapper p {

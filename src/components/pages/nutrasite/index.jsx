@@ -6,7 +6,7 @@ const Nutrasite = () => {
   return (
     <>
       <section className='nutra__small'>
-        <h1>Please view on a larger screen</h1>
+        <h1>Please view on a larger screen or rotate screen</h1>
       </section>
       <section className='nutra__container'>
         <div className='nutra__wrapper'>

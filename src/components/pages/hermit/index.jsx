@@ -6,7 +6,7 @@ const Hermit = () => {
   return (
     <>
       <section className='hermit__small'>
-        <h1>Please view on a larger screen</h1>
+        <h1>Please view on a larger screen or rotate screen</h1>
       </section>
       <section className='hermit__container'>
         <div className='hermit__wrapper'>

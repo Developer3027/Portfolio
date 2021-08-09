@@ -1,5 +1,9 @@
 /* css for Nutrasite page */
 
+.nutra__small {
+  display: none;
+}
+
 .nutra__container {
   margin-top: 5em;
   color: #fff;
@@ -11,6 +15,7 @@
 .nutra__wrapper {
   width: 100%;
   max-width: 900px;
+  padding: 0 1em;
 }
 
 .nutra__wrapper p {
