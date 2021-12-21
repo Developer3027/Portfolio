@@ -29,6 +29,11 @@ function Hero() {
           </div>
 
           <div className='hero__btns'>
+            <Link className='hero__link' to='/dash'>
+              <div className='hero__btnsOne'>
+                <p>Enter</p>
+              </div>
+            </Link>
             <Link className='hero__link' to='/contact'>
               <div className='hero__btnsTwo'>
                 <p>Contact Me</p>

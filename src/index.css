@@ -26,15 +26,22 @@
 /** ------ Navbar ------- */
 .nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-
+  justify-content: center;
   background-color: var(--drk-bg-color);
   border-bottom: 2px solid var(--drk-font-color);
+
   width: 100%;
   height: 70px;
   position: fixed;
   z-index: 5;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 900px;
 }
 
 .nav__specials {
@@ -120,6 +127,7 @@
 
 .nav__logo__name a {
   text-decoration: none;
+  margin-left: 0.5rem;
   color: var(--drk-font-color);
 }
 
@@ -194,6 +202,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /*position: sticky;
+  bottom: 0;*/
   background-color: #333;
   border-top: 2px solid #fff;
   width: 100%;
@@ -220,8 +230,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  /*background-color: #10c500;*/
+  /*position: relative;*/
+  border-radius: 50%;
+  border: 2px solid var(--drk-font-color);
+  background-color: var(--drk-bg-color);
+  margin-top: -25px;
   width: 100px;
   height: 100px;
 }
@@ -242,14 +255,14 @@
 }
 
 .footer__logo__img {
-  position: absolute;
   z-index: 5;
+  /*position: absolute;
   bottom: 25px;
   left: 0;
   padding: 7px;
-  background-color: var(--drk-bg-color);
-  border: 2px solid var(--drk-font-color);
-  border-radius: 50%;
+  background-color: var(--drk-bg-color);*/
+
+  /*border-radius: 50%;*/
 }
 
 .footer__h1 {

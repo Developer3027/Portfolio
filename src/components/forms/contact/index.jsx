@@ -46,7 +46,7 @@ const ContactUs = () => {
           <label className='contactLabel'>Email</label>
           <input className='contactInput' type='email' name='user_email' />
           <label className='contactLabel'>Message</label>
-          <textarea className='contactTextArea' name='message' />
+          <textarea className='contactTextArea' name='message' rows='8' />
           <input className='contactInputButton' type='submit' value='Send' />
         </form>
       </section>

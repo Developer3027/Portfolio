@@ -15,58 +15,59 @@ const Navbar = () => {
   return (
     <>
       <nav className='nav'>
-        <div className='nav__logo'>
-          <Link to='/'>
-            <img
-              className='nav__logo__img'
-              src='/images/logo.png'
-              alt='logo for dev 30 27'
-            />
-          </Link>
-        </div>
-        <h2 className='nav__logo__name'>
-          <Link to='/'>Developer3027</Link>
-        </h2>
-        <div className='nav__specials'>
-          <Link to='/hermit-plus'>
-            <h4>Hermit Plus</h4>
-          </Link>
-          <Link to='/nutrasite'>
-            <h4>NutraSite</h4>
-          </Link>
-        </div>
+        <div className='nav-wrapper'>
+          <div className='nav__logo'>
+            <Link to='/'>
+              <img
+                className='nav__logo__img'
+                src='/images/logo.png'
+                alt='logo for dev 30 27'
+              />
+            </Link>
+          </div>
+          <h2 className='nav__logo__name'>
+            <Link to='/'>Dev3027</Link>
+          </h2>
+          <div className='nav__specials'>
+            <Link to='/hermit-plus'>
+              <h4>Hermits</h4>
+            </Link>
+            <Link to='/nutrasite'>
+              <h4>NutraSite</h4>
+            </Link>
+          </div>
 
-        <div className='nav__menu'>
-          <div>
-            <FaAngleDown
-              className='nav__menu__btn'
-              id={rotated ? 'up' : 'down'}
+          <div className='nav__menu'>
+            <div>
+              <FaAngleDown
+                className='nav__menu__btn'
+                id={rotated ? 'up' : 'down'}
+                onClick={() => {
+                  setShowNav(!shownav);
+                  setRotated(!rotated);
+                }}
+              />
+            </div>
+            <ul
+              className='nav__menu__list'
+              id={shownav ? 'show' : 'hidden'}
               onClick={() => {
                 setShowNav(!shownav);
                 setRotated(!rotated);
-              }}
-            />
-          </div>
-          <ul
-            className='nav__menu__list'
-            id={shownav ? 'show' : 'hidden'}
-            onClick={() => {
-              setShowNav(!shownav);
-              setRotated(!rotated);
-            }}>
-            <li>
-              <FaMugHot />
-              &nbsp;<Link to='/projects'>Projects</Link>
-            </li>
+              }}>
+              <li>
+                <FaMugHot />
+                &nbsp;<Link to='/projects'>Projects</Link>
+              </li>
 
-            <li>
-              <FaRobot />
-              &nbsp;
-              <a href='chatbot/index.html' target='_blank' rel='noopener'>
-                Rive Bot
-              </a>
-            </li>
-            {/*<li>
+              <li>
+                <FaRobot />
+                &nbsp;
+                <a href='chatbot/index.html' target='_blank' rel='noopener'>
+                  Rive Bot
+                </a>
+              </li>
+              {/*<li>
               <FaBoxOpen />
               &nbsp;Packages
             </li>
@@ -78,18 +79,22 @@ const Navbar = () => {
               <FaBook />
               &nbsp;Blog
             </li> */}
-            <li>
-              <FaPaperclip />
-              &nbsp;
-              <a href='Mason+Roberts+Resume.pdf' target='_blank' rel='noopener'>
-                Resume
-              </a>
-            </li>
-            <li>
-              <FaUserAlt />
-              &nbsp;<Link to='/contact'>Contact</Link>
-            </li>
-          </ul>
+              <li>
+                <FaPaperclip />
+                &nbsp;
+                <a
+                  href='Mason+Roberts+Resume.pdf'
+                  target='_blank'
+                  rel='noopener'>
+                  Resume
+                </a>
+              </li>
+              <li>
+                <FaUserAlt />
+                &nbsp;<Link to='/contact'>Contact</Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </>

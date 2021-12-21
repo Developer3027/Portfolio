@@ -9,6 +9,7 @@ import ContactUs from './components/forms/contact';
 import Footer from './components/constants/Footer';
 
 import Projects from './components/pages/projects';
+import Dashboard from './components/pages/dashboard';
 
 import './App.css';
 
@@ -22,6 +23,7 @@ function App() {
         <Route path='/hermit-plus' component={Hermit} />
         <Route path='/nutrasite' component={Nutrasite} />
         <Route path='/projects' component={Projects} />
+        <Route path='/dash' component={Dashboard} />
       </section>
       <Footer />
     </>

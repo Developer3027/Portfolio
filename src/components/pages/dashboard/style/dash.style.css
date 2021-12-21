@@ -1,0 +1,116 @@
+#hide {
+  opacity: 0;
+  max-height: 0;
+  margin: 0;
+  transition: all 250ms linear, max-height 250ms linear;
+  will-change: opacity, max-height;
+}
+
+#noDisplay {
+  display: none;
+}
+
+#view {
+  opacity: 1;
+  max-height: 100%;
+  transition: all 250ms linear, max-height 250ms linear;
+  will-change: opacity, max-height;
+}
+
+.coral:hover {
+  background-color: coral;
+}
+
+.resRed:hover {
+  background-color: rgb(255, 97, 97);
+}
+
+.blogYellow:hover {
+  background-color: rgb(179, 255, 0);
+}
+
+.aboutGreen:hover {
+  background-color: rgb(0, 255, 34);
+}
+
+.metalBlue:hover {
+  background-color: #609ead;
+}
+
+.hermitGreen:hover {
+  background-color: lightgreen;
+}
+
+.DevTubeOrange:hover {
+  background-color: rgb(253, 165, 51);
+}
+
+.goodNeighborTeal:hover {
+  background-color: rgb(14, 255, 175);
+}
+
+.musicPink:hover {
+  background-color: rgb(255, 100, 208);
+}
+
+.eduPurple:hover {
+  background-color: #c753fd;
+}
+
+.subEduPurple:hover {
+  background-color: #d794f7;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: calc(100vh - 340px);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 900px;
+}
+
+.leftNav {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashBtn {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  width: 150px;
+  margin: 1px 0;
+  background-color: var(--drk-bg-color);
+  color: white;
+}
+
+.dashBtn:hover {
+  color: black;
+}
+
+.dashBtn span {
+  padding: 0.5em;
+}
+
+.indent {
+  width: 140px;
+  margin-left: 10px;
+}
+
+.intro,
+.blogInfo {
+  margin-left: 1em;
+  border: 5px solid #609ead;
+  border-radius: 10px;
+  padding: 1em;
+  background-color: white;
+}
